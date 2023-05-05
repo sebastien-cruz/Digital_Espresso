@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #8B4513;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 1rem;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title {
+  color: #fff;
+  margin: 0;
+}
+.footer {
+  background-color: #8B4513;
+  padding: 1%;
+}
+/* CSS for product page */
+
+.product-image {
+  width: 150px;
+  height: 150px;
+}
+
+/* Table */
+.table {
+  text-align: center;
+  margin: auto;
+}
